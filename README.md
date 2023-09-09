@@ -1,11 +1,11 @@
 <h1 align="center">Hola, soy Lincoln Macêdo👋!</h1>
 <h3 align="center">Entusiasta del Análisis de Datos y Ciencia en el mundo digital 🖥</h3>
 
-- 👨‍💻 Todo os meus projetos estão disponíveis em [https://lincolnmacedo.com/portfolio/](https://lincolnmacedo.com/portfolio/)
+- 👨‍💻 Todos mis proyectos están disponibles en [https://lincolnmacedo.com/portfolio/](https://lincolnmacedo.com/portfolio/)
 
-- 💬 Me pergunte sobre **SQL, Excel, Python, Looker Studio, Tableau,Power BI e Google Analytics 4**
+- 💬 Pregúntame sobre **SQL, Excel, Python, Looker Studio, Tableau, Power BI y Google Analytics 4**
 
-- 📫 Entre em contato comigo pelo e-mail **lincolnvcmacedo@gmail.com**
+- 📫 Por favor contáctame por correo electrónico **lincolnvcmacedo@gmail.com**
 
 
 
@@ -18,7 +18,7 @@
 
 
 
-<h3 align="left">🖥 Linguagens e Tecnologias</h3>
+<h3 align="left">🖥 Idiomas y Tecnologías</h3>
 <div style="align:center; display:inline-block">
 <br>
   <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
