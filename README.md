@@ -1,4 +1,4 @@
-<h1 align="center">Hola, soy lincoln macedo👋!</h1>
+<h1 align="center">Hola, soy Lincoln Macêdo👋!</h1>
 <h3 align="center">Enstusiasta da ciência e análise de dados no mundo digital</h3>
 
 - 👨‍💻 Todo os meus projetos estão disponíveis em [https://lincolnmacedo.com/portfolio/](https://lincolnmacedo.com/portfolio/)
