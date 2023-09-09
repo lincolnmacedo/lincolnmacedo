@@ -1,21 +1,12 @@
 <h1 align="center">Olá 👋, meu nome é Lincoln Macêdo</h1>
 <h3 align="center">Enstusiasta da ciência e análise de dados no mundo digital</h3>
 
-- 🔭 Atualmente estou trabalhando com análise e visualização de dados em [Story performance](https://lincolnmacedo.com/portfolio/)
-
-- 👯 Também estou compartilhando conteúdo no canal do Youtube [Rearmonia](https://www.youtube.com/channel/UCAYJA8ZNr4eHvcXKGCbunvw)
-
 - 👨‍💻 Todo os meus projetos estão disponíveis em [https://lincolnmacedo.com/portfolio/](https://lincolnmacedo.com/portfolio/)
-
-- 📝 Eu escrevo artigos no site [https://lincolnmacedo.com/blog/](https://lincolnmacedo.com/blog/)
 
 - 💬 Me pergunte sobre **SQL, Excel, Python, Looker Studio, Tableau,Power BI e Google Analytics 4**
 
 - 📫 Entre em contato comigo pelo e-mail **lincolnvcmacedo@gmail.com**
 
-- 📄 Saiba mais sobre as minhas experiências em [https://lincolnmacedo.com/sobremim/](https://lincolnmacedo.com/sobremim/)
-
-- 🤝 Fundado por **https://www.linkedin.com/in/lincolnmacedo/**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
