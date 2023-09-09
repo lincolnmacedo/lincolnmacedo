@@ -8,12 +8,15 @@
 - 📫 Entre em contato comigo pelo e-mail **lincolnvcmacedo@gmail.com**
 
 
-<h3 align="left">Connect with me:</h3>
+
+
+<h3 align="left"> Contáctame:</h3>
 <p align="left">
 <a href="https://twitter.com/lincoln" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="lincoln" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/lincolnmacedo/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/lincolnmacedo/" height="30" width="40" /></a>
-
 </p>
+
+
 
 🖥 Linguagens e Tecnologias
 <div style="align:center; display:inline-block">
@@ -23,6 +26,8 @@
   <img align="center" alt="MySQLl" height="30" width="40" src="https://user-images.githubusercontent.com/25181517/192108891-d86b6220-e232-423a-bf5f-90903e6887c3.png">
   <img align="center" alt="MySQLl" height="30" width="40" src="https://user-images.githubusercontent.com/25181517/183914128-3fc88b4a-4ac1-40e6-9443-9a30182379b7.png">
 </div>
+
+
 
 ## GitHub stats
 
