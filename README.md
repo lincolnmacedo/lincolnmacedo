@@ -26,6 +26,12 @@
 <a href="https://www.behance.net/https://www.behance.net/lincolnmacedo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/behance.svg" alt="https://www.behance.net/lincolnmacedo" height="30" width="40" /></a>
 </p>
 
+🖥 Linguagens e Tecnologias
+<div style="align:center; display:inline-block">
+<br>
+  <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img align="center" alt="MySQLl" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain.svg">
+</div>
 
 ## GitHub stats
 
