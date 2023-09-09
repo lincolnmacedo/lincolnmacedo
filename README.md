@@ -30,11 +30,11 @@
 ## GitHub stats
 
 <div style="display: flex">
-<img height="150em" src=https://github-readme-stats.vercel.app/api?username=alexcamargos&show_icons=true&theme=dark&include_all_commits=true&count_private=true alt="Alexsander Lopes Camargos' GitHub Stats"/>
-<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alexcamargos&layout=compact&langs_count=7&theme=dark" alt="Alexsander Lopes Camargos Most Used Languages"/>
+<img height="150em" src=https://github-readme-stats.vercel.app/api?username=lincolnmacedo&show_icons=true&theme=dark&include_all_commits=true&count_private=true alt="Lincoln Macedo' GitHub Stats"/>
+<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lincolnmacedo&layout=compact&langs_count=7&theme=dark" alt="Lincoln Macedo Most Used Languages"/>
 </div>
 
 <div align="right">
-<img src="https://komarev.com/ghpvc/?username=alexcamargos" alt="Alexsander Lopes Camargos"/>
-<img src="https://visitor-badge.laobi.icu/badge?page_id=alexcamargos" alt="Alexsander Lopes Camargos"/>
+<img src="https://komarev.com/ghpvc/?username=alexcamargos" alt="Lincoln Macedo"/>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=lincolnmacedo" alt="Lincoln Macedo"/>
 </div>
