@@ -34,7 +34,7 @@
 <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lincolnmacedo&layout=compact&langs_count=7&theme=dark" alt="Lincoln Macedo Most Used Languages"/>
 </div>
 
-<div align="right">
+<div align="left">
 <img src="https://komarev.com/ghpvc/?username=alexcamargos" alt="Lincoln Macedo"/>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=lincolnmacedo" alt="Lincoln Macedo"/>
 </div>
