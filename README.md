@@ -1,7 +1,7 @@
 <h1 align="center">Hola, soy Lincoln Macêdo👋!</h1>
 <h3 align="center">Explorando datos, creando futuros 🖥</h3>
 
-- 👨‍💻 Todos mis proyectos están disponibles en [https://lincolnmacedo.com/portfolio/](https://lincolnmacedo.com/portfolio/)
+- 👨‍💻 Todos mis proyectos están disponibles en [https://lincolnmacedo.com/portfolio/](https://lincolnmacedo.com/proyectos/)
 
 - 💬 Pregúntame sobre **SQL, Excel, Python, Looker Studio, Tableau, Power BI y Google Analytics 4**
 
