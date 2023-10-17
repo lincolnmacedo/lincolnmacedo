@@ -1,14 +1,14 @@
-<h1 align="center">Hola, soy Lincoln Macêdo👋!</h1>
-<h3 align="center">Explorando datos, creando futuros 🖥</h3>
+<h1 align="center">Olá, sou Lincoln Macêdo👋!</h1>
+<h3 align="center">Explorando dados, criando futuros 🖥</h3>
 
-- 👨‍💻 Todos mis proyectos están disponibles en [https://lincolnmacedo.com/portfolio/](https://lincolnmacedo.com/proyectos/)
+- 👨‍💻 Conheça também meus projetos de dataviz em [https://lincolnmacedo.com/portfolio/](https://lincolnmacedo.com/projetos/)
 
-- 💬 Pregúntame sobre **SQL, Excel, Python, Looker Studio, Tableau, Power BI y Google Analytics 4**
-
-
+- 💬 Pergunta-me sobre **SQL, Excel, Python, Looker Studio, Tableau, Power BI y Google Analytics 4**
 
 
-<h3 align="left"> Contáctame:</h3>
+
+
+<h3 align="left"> Contacte-me:</h3>
 <p align="left">
 <a href = "mailto:lincolnvcmacedo@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
    <a href="https://www.linkedin.com/in/lincolnmacedo/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
@@ -16,7 +16,7 @@
 
 
 
-<h3 align="left">🖥 Tecnologías</h3>
+<h3 align="left">🖥 Tecnologias</h3>
 <div style="align:center; display:inline-block">
 <br>
   <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
