@@ -26,10 +26,10 @@ I focus on **automation over manual work**, **scalable architectures**, and **pr
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
 
 ### Data platforms & warehouses
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=googlebigquery&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white) 
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
@@ -116,7 +116,7 @@ Every project in this profile follows the same conventions to demonstrate **data
 └── README.md
 ```
 
-**Naming convention:** `{layer}-{domain}-{stack}`
+**Naming convention:** `{layer}-{domain}-{stack}`  
 Layers: `ingestion` · `transform` · `serving` · `infra` · `analytics`
 
 ---
@@ -125,19 +125,14 @@ Layers: `ingestion` · `transform` · `serving` · `infra` · `analytics`
 
 <div align="center">
 
-![Lincoln's GitHub stats](https://github-readme-stats.vercel.app/api?username=lincolnmacedo&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true)
+<!-- OPTION A: After deploying your own Vercel instance (recommended — replace YOUR_VERCEL_URL) -->
+<!-- ![Lincoln's GitHub stats](https://YOUR_VERCEL_URL/api?username=lincolnmacedo&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true) -->
+<!-- ![Top Languages](https://YOUR_VERCEL_URL/api/top-langs/?username=lincolnmacedo&layout=compact&theme=default&hide_border=true&langs_count=8) -->
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=lincolnmacedo&layout=compact&theme=default&hide_border=true&langs_count=8)
-
+<!-- OPTION B: Active now — swap for OPTION A once Vercel is deployed -->
 ![GitHub Streak](https://streak-stats.demolab.com/?user=lincolnmacedo&theme=default&hide_border=true)
 
 </div>
-
----
-
-## Currently
-
-- 🔭 Building: production data platforms on GCP with Terraform + dbt + BigQuery
 
 ---
 
