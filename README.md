@@ -8,8 +8,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/lincolnmacedo)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/lincolnmacedo)
-[![Location](https://img.shields.io/badge/Brazil%20→%20Europe-00A36C?style=flat&logo=googlemaps&logoColor=white)](#)
-[![Open to Work](https://img.shields.io/badge/Open%20to%20Remote%20%2F%20Relocation-brightgreen?style=flat)](#)
 
 </div>
 
@@ -20,8 +18,6 @@
 Data Engineer with 5+ years designing and building **end-to-end data platforms** — from raw ingestion to production-ready dashboards. I work across the full data stack: scalable ETL/ELT pipelines, cloud data warehousing, data modeling, and BI delivery.
 
 I focus on **automation over manual work**, **scalable architectures**, and **production-ready code**. Every system I build is designed to run reliably at scale, with proper governance, environment separation (dev/prod), and observability built in from day one.
-
-Currently based in Brazil, open to **remote roles** and **relocation to Europe** (Germany priority).
 
 ---
 
