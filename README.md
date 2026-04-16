@@ -29,11 +29,12 @@ I focus on **automation over manual work**, **scalable architectures**, and **pr
 
 ### Data platforms & warehouses
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=googlebigquery&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white) 
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
 ![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
 
 ### Cloud
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
@@ -49,6 +50,7 @@ I focus on **automation over manual work**, **scalable architectures**, and **pr
 ### Dev tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 
@@ -57,34 +59,43 @@ I focus on **automation over manual work**, **scalable architectures**, and **pr
 ## What I build
 
 ```
-Raw sources  →  Ingestion  →  Transform  →  Serving  →  Dashboards
-               (Python)       (dbt/SQL)    (BigQuery)   (Power BI / Looker)
-                  ↕               ↕             ↕
-              Cloud Storage   Data vault    Data marts
-              (GCS / S3)    (staging/int)  (analytics)
+[Sources]  →  ingestion  →  transform  →  serving  →  Consumers
+              (Python /      (dbt /        (FastAPI /   (BI / APIs)
+               Snowpark /     PySpark /     Cloud Run /
+               Lambda)        SparkSQL)     Kubernetes)
+                  ↕               ↕              ↕
+            GCS / S3        BQ / Snowflake  REST APIs
+            Raw layer       Staging → Mart  Dashboards
+
+[Events]   →  streaming  →  Delta / BigQuery
+              (Kafka +
+               PySpark)
+
+[Infra]    →  Terraform  →  GCP · AWS · Snowflake · Databricks
 ```
 
 - **Data pipelines** — production ETL/ELT with retry logic, error handling, structured logging
 - **Data modeling** — dbt projects with staging → intermediate → mart layer pattern
-- **Cloud infra** — GCP/AWS environments managed with Terraform, dev/prod separation
-- **Web scraping** — scalable scrapers (Selenium + BeautifulSoup) with BigQuery sinks
-- **Automation** — Google Sheets + Apps Script + API integrations
-- **BI & delivery** — optimized SQL, partitioned/clustered BigQuery tables, dashboard-ready marts
+- **Medallion architecture** — bronze → silver → gold on Databricks with Delta Lake
+- **Cloud infra** — GCP and AWS environments managed with Terraform, dev/prod separation
+- **Real-time streaming** — Kafka + PySpark Structured Streaming with watermarking
+- **Data serving** — FastAPI over BigQuery mart tables, deployed on Cloud Run and Kubernetes
+- **Orchestration** — Airflow DAGs coordinating cross-platform pipelines
 
 ---
 
 ## Featured projects
 
-> All repositories follow a consistent structure: `environments/dev` + `environments/prod`, CI/CD via GitHub Actions, and modular `src/` layout.
+> All repositories follow the naming convention `{layer}-{platform}-{domain}` (application) or `infra-{platform}` (infrastructure), with `environments/dev` + `environments/prod` separation, CI/CD via GitHub Actions, and semantic versioning on every release.
 
 | Repository | Description | Stack |
 |---|---|---|
-| [infra-platform-gcp](https://github.com/lincolnmacedo/infra-platform-gcp) | Production data platform: BigQuery, GCS, Cloud Functions, IAM, dev/prod via Terraform | GCP · Terraform · BigQuery |
-| [transform-models-dbt](https://github.com/lincolnmacedo/transform-models-dbt) | dbt project with staging, intermediate, mart layers. Tests, docs, CI/CD on BigQuery | dbt · BigQuery · SQL |
-| [ingestion-pipeline-python](https://github.com/lincolnmacedo/ingestion-pipeline-python) | Scalable ETL/ELT pipelines: REST APIs → BigQuery, retry logic, structured logging | Python · BigQuery · Airflow |
-| [ingestion-scraper-python](https://github.com/lincolnmacedo/ingestion-scraper-python) | Production web scraping: Selenium + BeautifulSoup, proxy rotation, dedup, BQ sink | Python · Selenium · BigQuery |
-| [analytics-dashboard-bq](https://github.com/lincolnmacedo/analytics-dashboard-bq) | BigQuery optimization patterns: partitioning, clustering, cost-efficient queries, marts | SQL · BigQuery · Power BI |
-| [serving-automation-sheets](https://github.com/lincolnmacedo/serving-automation-sheets) | Google Sheets + Apps Script automation: API integrations, scheduled triggers, prod patterns | Apps Script · APIs · GSheets |
+| [infra-gcp](https://github.com/lincolnmacedo/infra-gcp) | GCP data platform: BigQuery, GCS, Cloud Run, IAM — dev/prod via Terraform | GCP · Terraform |
+| [ingestion-bigquery-ecommerce](https://github.com/lincolnmacedo/ingestion-bigquery-ecommerce) | Python ETL: Olist CSV + API → BigQuery raw tables, retry logic, structured logging | Python · BigQuery |
+| [transform-bigquery-ecommerce](https://github.com/lincolnmacedo/transform-bigquery-ecommerce) | dbt on BigQuery: staging → intermediate → mart, tests, docs, slim CI | dbt · SQL · BigQuery |
+| [transform-databricks-logistics](https://github.com/lincolnmacedo/transform-databricks-logistics) | Medallion architecture on Databricks: bronze → silver → gold with Delta Lake | PySpark · Databricks |
+| [infra-snowflake](https://github.com/lincolnmacedo/infra-snowflake) | Snowflake infrastructure: databases, warehouses, RBAC roles — Terraform managed | Snowflake · Terraform |
+| [orchestration-airflow](https://github.com/lincolnmacedo/orchestration-airflow) | Airflow DAGs orchestrating all platform pipelines across GCP, AWS, Databricks | Airflow · Python |
 
 ---
 
@@ -92,32 +103,38 @@ Raw sources  →  Ingestion  →  Transform  →  Serving  →  Dashboards
 
 Every project in this profile follows the same conventions to demonstrate **data governance and engineering best practices**:
 
+**Naming pattern:**
 ```
-{layer}-{domain}-{stack}/
+infra-{platform}                   ← infrastructure only (Terraform)
+{layer}-{platform}-{domain}        ← application repositories
+```
+
+**Layers:** `infra` · `ingestion` · `transform` · `serving` · `orchestration` · `streaming`
+
+**Standard structure (all repos):**
+```
+{layer}-{platform}-{domain}/
 ├── .github/
 │   └── workflows/
-│       ├── ci.yml          # lint, test, validate on PR
-│       └── cd.yml          # deploy dev → prod on merge
+│       ├── ci.yml              # lint, test, validate on PR
+│       └── cd.yml              # deploy on merge to main
 ├── environments/
-│   ├── dev/config.yml      # dev variables, small samples
-│   └── prod/config.yml     # prod variables, monitoring, alerts
+│   ├── dev/config.yml          # dev variables, small samples
+│   └── prod/config.yml         # prod variables, monitoring, alerts
 ├── src/
-│   ├── ingestion/
-│   ├── transform/
-│   └── utils/
 ├── tests/
 │   ├── unit/
 │   └── integration/
 ├── docs/
 │   └── architecture.md
 ├── .env.example
-├── Makefile                # make dev / make test / make deploy
+├── Makefile
 ├── pyproject.toml
 └── README.md
 ```
 
-**Naming convention:** `{layer}-{domain}-{stack}`  
-Layers: `ingestion` · `transform` · `serving` · `infra` · `analytics`
+**Branching:** `main` (prod) · `dev` (integration) · `{type}/{scope}/{description}` (feature branches)  
+**Releases:** semantic versioning `v{major}.{minor}.{patch}` — every merge to `main` creates a tagged release
 
 ---
 
