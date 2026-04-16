@@ -86,7 +86,7 @@ I focus on **automation over manual work**, **scalable architectures**, and **pr
 
 ## Featured projects
 
-> All repositories follow the naming convention `{layer}-{platform}-{domain}` (application) or `infra-{platform}` (infrastructure), with `environments/dev` + `environments/prod` separation, CI/CD via GitHub Actions, and semantic versioning on every release.
+> Repositories follow `{layer}-{platform}-{domain}` naming with dev/prod separation, CI/CD via GitHub Actions, and semantic versioning on every release.
 
 | Repository | Description | Stack |
 |---|---|---|
@@ -96,45 +96,6 @@ I focus on **automation over manual work**, **scalable architectures**, and **pr
 | [transform-databricks-logistics](https://github.com/lincolnmacedo/transform-databricks-logistics) | Medallion architecture on Databricks: bronze → silver → gold with Delta Lake | PySpark · Databricks |
 | [infra-snowflake](https://github.com/lincolnmacedo/infra-snowflake) | Snowflake infrastructure: databases, warehouses, RBAC roles — Terraform managed | Snowflake · Terraform |
 | [orchestration-airflow](https://github.com/lincolnmacedo/orchestration-airflow) | Airflow DAGs orchestrating all platform pipelines across GCP, AWS, Databricks | Airflow · Python |
-
----
-
-## Repository conventions
-
-Every project in this profile follows the same conventions to demonstrate **data governance and engineering best practices**:
-
-**Naming pattern:**
-```
-infra-{platform}                   ← infrastructure only (Terraform)
-{layer}-{platform}-{domain}        ← application repositories
-```
-
-**Layers:** `infra` · `ingestion` · `transform` · `serving` · `orchestration` · `streaming`
-
-**Standard structure (all repos):**
-```
-{layer}-{platform}-{domain}/
-├── .github/
-│   └── workflows/
-│       ├── ci.yml              # lint, test, validate on PR
-│       └── cd.yml              # deploy on merge to main
-├── environments/
-│   ├── dev/config.yml          # dev variables, small samples
-│   └── prod/config.yml         # prod variables, monitoring, alerts
-├── src/
-├── tests/
-│   ├── unit/
-│   └── integration/
-├── docs/
-│   └── architecture.md
-├── .env.example
-├── Makefile
-├── pyproject.toml
-└── README.md
-```
-
-**Branching:** `main` (prod) · `dev` (integration) · `{type}/{scope}/{description}` (feature branches)  
-**Releases:** semantic versioning `v{major}.{minor}.{patch}` — every merge to `main` creates a tagged release
 
 ---
 
