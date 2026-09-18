@@ -1,6 +1,6 @@
 <div align="center">
 
-# Lincoln Macedo
+# Lincoln Macêdo
 
 **Data Engineer · Analytics Engineer · 5+ years**
 
